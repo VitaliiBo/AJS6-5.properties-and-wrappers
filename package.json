@@ -1,0 +1,48 @@
+{
+  "name": "ajs6-5.properties-and-wrappers",
+  "version": "1.0.0",
+  "description": "properties-and-wrappers",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint .",
+    "live": "live-server",
+    "build": "webpack --mode production",
+    "coverage": "jest --coverage",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist",
+    "babel": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitaliiBo/AJS6-5.properties-and-wrappers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VitaliiBo/AJS6-5.properties-and-wrappers/issues"
+  },
+  "homepage": "https://github.com/VitaliiBo/AJS6-5.properties-and-wrappers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^25.1.0",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4"
+  }
+}
